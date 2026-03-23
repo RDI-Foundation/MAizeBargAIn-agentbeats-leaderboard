@@ -1,0 +1,113 @@
+{
+  "status": "completed",
+  "results": [
+    {
+      "per_agent": [
+        {
+          "agent_name": "soft",
+          "ef1_percent": 28.611223862436557,
+          "ef1_percent_se": 16.516728414478834,
+          "mene_regret": 0.0,
+          "mene_regret_se": 0.0,
+          "nw_percent": 61.8219857327309,
+          "nw_percent_se": 8.859561440387148,
+          "nwa_percent": 37.5074123726552,
+          "nwa_percent_se": 23.308737751286532,
+          "uw_percent": 76.19560875360483,
+          "uw_percent_se": 8.354656225271228
+        },
+        {
+          "agent_name": "tough",
+          "ef1_percent": 0.0,
+          "ef1_percent_se": 0.0,
+          "mene_regret": 0.000007545454802766472,
+          "mene_regret_se": 0.000020988815133471243,
+          "nw_percent": 77.69798448803,
+          "nw_percent_se": 11.615720450461678,
+          "nwa_percent": 5.515683148074763,
+          "nwa_percent_se": 7.198775921525856,
+          "uw_percent": 84.64539064880607,
+          "uw_percent_se": 12.205864676745154
+        },
+        {
+          "agent_name": "aspiration",
+          "ef1_percent": 14.044886670462187,
+          "ef1_percent_se": 11.70801733885931,
+          "mene_regret": 0.0000020720330456924784,
+          "mene_regret_se": 0.000011830760581698742,
+          "nw_percent": 73.74358994895375,
+          "nw_percent_se": 12.661895590003805,
+          "nwa_percent": 5.409422817396037,
+          "nwa_percent_se": 8.944361130995977,
+          "uw_percent": 82.80419757659035,
+          "uw_percent_se": 11.680538026954789
+        },
+        {
+          "agent_name": "walk",
+          "ef1_percent": 0.0,
+          "ef1_percent_se": 0.0,
+          "mene_regret": 8.928095854798812E-7,
+          "mene_regret_se": 0.000006359087936101768,
+          "nw_percent": 69.73074953954305,
+          "nw_percent_se": 4.918991446286039,
+          "nwa_percent": 0.0,
+          "nwa_percent_se": 0.0,
+          "uw_percent": 76.29397924211521,
+          "uw_percent_se": 4.26086146750519
+        },
+        {
+          "agent_name": "nfsp",
+          "ef1_percent": 35.06309465933117,
+          "ef1_percent_se": 21.55475351650403,
+          "mene_regret": 0.000011985185956291389,
+          "mene_regret_se": 0.000023753780546177224,
+          "nw_percent": 76.11179297171066,
+          "nw_percent_se": 9.897173914121673,
+          "nwa_percent": 39.45164434929948,
+          "nwa_percent_se": 36.87939668352294,
+          "uw_percent": 86.44373431607336,
+          "uw_percent_se": 7.719741213512357
+        },
+        {
+          "agent_name": "rnad",
+          "ef1_percent": 23.50248769744328,
+          "ef1_percent_se": 20.79349049859219,
+          "mene_regret": 0.000026002365788713178,
+          "mene_regret_se": 0.000034042122715641655,
+          "nw_percent": 80.73408437499458,
+          "nw_percent_se": 12.592122705546993,
+          "nwa_percent": 22.78329103477256,
+          "nwa_percent_se": 22.68846582722058,
+          "uw_percent": 89.09113025296776,
+          "uw_percent_se": 9.385820043593267
+        },
+        {
+          "agent_name": "challenger",
+          "ef1_percent": 0.0,
+          "ef1_percent_se": 0.0,
+          "mene_regret": 0.0000026089622321023852,
+          "mene_regret_se": 0.000010844816824853773,
+          "nw_percent": 72.4262889992544,
+          "nw_percent_se": 9.878143213190029,
+          "nwa_percent": 0.0,
+          "nwa_percent_se": 0.0,
+          "uw_percent": 79.450965291598,
+          "uw_percent_se": 8.17046147900025
+        }
+      ],
+      "summary": {
+        "ef1_percent_mean": 14.460241841381885,
+        "mene_regret_mean": 0.000007300973058720826,
+        "num_agents": 7,
+        "num_profiles": 50,
+        "nw_percent_mean": 73.18092515074534,
+        "nwa_percent_mean": 15.809636246028292,
+        "uw_percent_mean": 82.13214372596508
+      }
+    }
+  ],
+  "participants": {
+    "green": "019cfd96-75cb-7873-80ee-60683ace10be",
+    "challenger": "019d1cdd-d8dd-7640-af9e-28d65baa29be"
+  }
+}
