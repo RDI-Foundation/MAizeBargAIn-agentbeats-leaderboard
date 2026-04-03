@@ -1,0 +1,79 @@
+{
+  "manifest_version": "0.1.0",
+  "config_schema": {
+    "type": "object",
+    "properties": {
+      "challenger_groq_api_key": {
+        "type": "string",
+        "secret": true
+      }
+    },
+    "required": [
+      "challenger_groq_api_key"
+    ],
+    "additionalProperties": false
+  },
+  "components": {
+    "gateway": {
+      "manifest": "https://raw.githubusercontent.com/RDI-Foundation/agentbeats-gateway/refs/tags/v0.1/amber-manifest.json5",
+      "config": {
+        "assessment_config": {
+          "games": 10,
+          "max_rounds": 5,
+          "discount": 0.98,
+          "bootstrap": 100,
+          "full_matrix": true
+        },
+        "participant_roles": {
+          "green": "green",
+          "purple1": "challenger"
+        },
+        "callback_urls": {
+          "green": "${bindings.green-proxy.url}",
+          "purple1": "${bindings.purple1-proxy.url}"
+        }
+      }
+    },
+    "green": {
+      "manifest": "https://raw.githubusercontent.com/RDI-Foundation/MAizeBargAIn-agentbeats/refs/heads/main/amber/amber-manifest-green.json5",
+      "config": {}
+    },
+    "challenger": {
+      "manifest": "https://raw.githubusercontent.com/FanisNgv/agent-template/main/amber-manifest.json5",
+      "config": {
+        "groq_api_key": "${config.challenger_groq_api_key}"
+      }
+    }
+  },
+  "bindings": [
+    {
+      "to": "#gateway.green",
+      "from": "#green.a2a"
+    },
+    {
+      "to": "#gateway.purple1",
+      "from": "#challenger.a2a"
+    },
+    {
+      "to": "#green.proxy",
+      "from": "#gateway.proxy",
+      "weak": true,
+      "name": "green-proxy"
+    },
+    {
+      "to": "#challenger.proxy",
+      "from": "#gateway.proxy",
+      "weak": true,
+      "name": "purple1-proxy"
+    }
+  ],
+  "exports": {
+    "results": "#gateway.results"
+  },
+  "metadata": {
+    "agentbeats_ids": {
+      "green": "019cfd96-75cb-7873-80ee-60683ace10be",
+      "challenger": "019d4f64-90c7-7e42-bba0-207d9dc314f7"
+    }
+  }
+}
