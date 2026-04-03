@@ -1,0 +1,113 @@
+{
+  "status": "completed",
+  "results": [
+    {
+      "per_agent": [
+        {
+          "agent_name": "soft",
+          "ef1_percent": 17.044449120100033,
+          "ef1_percent_se": 13.589880537190261,
+          "mene_regret": 9.043369107075705E-7,
+          "mene_regret_se": 0.000009043369107075694,
+          "nw_percent": 62.49404711184139,
+          "nw_percent_se": 8.730771671420023,
+          "nwa_percent": 31.26822983924215,
+          "nwa_percent_se": 27.86235581193569,
+          "uw_percent": 73.56308544571637,
+          "uw_percent_se": 6.976278995201094
+        },
+        {
+          "agent_name": "tough",
+          "ef1_percent": 0.0,
+          "ef1_percent_se": 0.0,
+          "mene_regret": 0.0000027530298228839455,
+          "mene_regret_se": 0.000013056664818174111,
+          "nw_percent": 70.84760889923884,
+          "nw_percent_se": 5.781873821282515,
+          "nwa_percent": 6.412541640461956,
+          "nwa_percent_se": 9.558527981168458,
+          "uw_percent": 75.48123652067166,
+          "uw_percent_se": 4.426701019211517
+        },
+        {
+          "agent_name": "aspiration",
+          "ef1_percent": 15.98815837412791,
+          "ef1_percent_se": 13.305730255825567,
+          "mene_regret": 0.0,
+          "mene_regret_se": 0.0,
+          "nw_percent": 68.73614847978257,
+          "nw_percent_se": 7.797866231448864,
+          "nwa_percent": 6.650688354189304,
+          "nwa_percent_se": 6.694119012257296,
+          "uw_percent": 73.68506404034288,
+          "uw_percent_se": 7.59977169986745
+        },
+        {
+          "agent_name": "walk",
+          "ef1_percent": 0.0,
+          "ef1_percent_se": 0.0,
+          "mene_regret": 6.890894235311862E-7,
+          "mene_regret_se": 0.00000493007218521522,
+          "nw_percent": 68.65576940885964,
+          "nw_percent_se": 1.695389007238272,
+          "nwa_percent": 0.0,
+          "nwa_percent_se": 0.0,
+          "uw_percent": 75.6234562610954,
+          "uw_percent_se": 1.3012767296787533
+        },
+        {
+          "agent_name": "nfsp",
+          "ef1_percent": 37.93576909153245,
+          "ef1_percent_se": 27.277098475374395,
+          "mene_regret": 0.000029842051729929154,
+          "mene_regret_se": 0.00003538277945568774,
+          "nw_percent": 75.91149850531582,
+          "nw_percent_se": 10.523365260549584,
+          "nwa_percent": 56.039972258748186,
+          "nwa_percent_se": 46.8134728521389,
+          "uw_percent": 84.31272198830226,
+          "uw_percent_se": 8.457486979439194
+        },
+        {
+          "agent_name": "rnad",
+          "ef1_percent": 37.57380739426258,
+          "ef1_percent_se": 29.792099928875928,
+          "mene_regret": 0.000010950138026259993,
+          "mene_regret_se": 0.00002408056039569804,
+          "nw_percent": 87.25765934999924,
+          "nw_percent_se": 15.01731647139989,
+          "nwa_percent": 33.3769902104679,
+          "nwa_percent_se": 27.224016925922527,
+          "uw_percent": 89.15844920891745,
+          "uw_percent_se": 12.877586305487899
+        },
+        {
+          "agent_name": "challenger",
+          "ef1_percent": 0.0,
+          "ef1_percent_se": 0.0,
+          "mene_regret": 6.752882899263568E-7,
+          "mene_regret_se": 0.000006752882899263569,
+          "nw_percent": 73.99624319505938,
+          "nw_percent_se": 11.764823360504419,
+          "nwa_percent": 0.0,
+          "nwa_percent_se": 0.0,
+          "uw_percent": 77.84224915183738,
+          "uw_percent_se": 11.008295258000778
+        }
+      ],
+      "summary": {
+        "ef1_percent_mean": 15.506026282860423,
+        "mene_regret_mean": 0.0000065448477433197444,
+        "num_agents": 7,
+        "num_profiles": 50,
+        "nw_percent_mean": 72.5569964214424,
+        "nwa_percent_mean": 19.106917471872784,
+        "uw_percent_mean": 78.52375180241191
+      }
+    }
+  ],
+  "participants": {
+    "green": "019cfd96-75cb-7873-80ee-60683ace10be",
+    "challenger": "019d4f64-90c7-7e42-bba0-207d9dc314f7"
+  }
+}
