@@ -1,0 +1,113 @@
+{
+  "status": "completed",
+  "results": [
+    {
+      "per_agent": [
+        {
+          "agent_name": "soft",
+          "ef1_percent": 8.072599427094524,
+          "ef1_percent_se": 8.700448352097462,
+          "mene_regret": 0.0,
+          "mene_regret_se": 0.0,
+          "nw_percent": 58.2782024462676,
+          "nw_percent_se": 9.857956727128778,
+          "nwa_percent": 20.424308565897405,
+          "nwa_percent_se": 19.285930591834102,
+          "uw_percent": 73.72521772373133,
+          "uw_percent_se": 5.582653160704696
+        },
+        {
+          "agent_name": "tough",
+          "ef1_percent": 0.0,
+          "ef1_percent_se": 0.0,
+          "mene_regret": 0.0000026586945051576548,
+          "mene_regret_se": 0.00001443272328991369,
+          "nw_percent": 72.73259616961627,
+          "nw_percent_se": 7.6813622710328655,
+          "nwa_percent": 2.832170621705176,
+          "nwa_percent_se": 4.614787336913887,
+          "uw_percent": 76.6316766417258,
+          "uw_percent_se": 5.81790695552515
+        },
+        {
+          "agent_name": "aspiration",
+          "ef1_percent": 18.02120587291128,
+          "ef1_percent_se": 18.755763975002125,
+          "mene_regret": 0.000001224072083232386,
+          "mene_regret_se": 0.000010049448632473847,
+          "nw_percent": 71.33826328220775,
+          "nw_percent_se": 5.705521895530905,
+          "nwa_percent": 19.47535912037266,
+          "nwa_percent_se": 24.400765109914794,
+          "uw_percent": 79.78456113631921,
+          "uw_percent_se": 6.139477034938476
+        },
+        {
+          "agent_name": "walk",
+          "ef1_percent": 0.0,
+          "ef1_percent_se": 0.0,
+          "mene_regret": 1.9351359526353917E-7,
+          "mene_regret_se": 0.0000017673255028709766,
+          "nw_percent": 68.27615293056758,
+          "nw_percent_se": 0.049825021463321385,
+          "nwa_percent": 0.0,
+          "nwa_percent_se": 0.0,
+          "uw_percent": 75.34235266024571,
+          "uw_percent_se": 0.044594326254667235
+        },
+        {
+          "agent_name": "nfsp",
+          "ef1_percent": 30.140591982153396,
+          "ef1_percent_se": 31.013121374892798,
+          "mene_regret": 0.000013404440465478729,
+          "mene_regret_se": 0.00002812538251290656,
+          "nw_percent": 78.12760062555618,
+          "nw_percent_se": 11.057145916362236,
+          "nwa_percent": 32.702862110847896,
+          "nwa_percent_se": 31.134066780526997,
+          "uw_percent": 86.8070291380989,
+          "uw_percent_se": 11.193190855933912
+        },
+        {
+          "agent_name": "rnad",
+          "ef1_percent": 29.92339474058766,
+          "ef1_percent_se": 30.53675336525107,
+          "mene_regret": 0.00005405794982323187,
+          "mene_regret_se": 0.00004164728266260776,
+          "nw_percent": 78.53652063508534,
+          "nw_percent_se": 11.08851266407719,
+          "nwa_percent": 23.379724747282,
+          "nwa_percent_se": 26.298192464118365,
+          "uw_percent": 84.04782405453214,
+          "uw_percent_se": 9.498515044080856
+        },
+        {
+          "agent_name": "challenger",
+          "ef1_percent": 3.4590889068417465,
+          "ef1_percent_se": 4.6300805395757685,
+          "mene_regret": 0.0,
+          "mene_regret_se": 0.0,
+          "nw_percent": 17.290096169761373,
+          "nw_percent_se": 17.15938449721652,
+          "nwa_percent": 0.0,
+          "nwa_percent_se": 0.0,
+          "uw_percent": 73.15148266081009,
+          "uw_percent_se": 8.904786675182457
+        }
+      ],
+      "summary": {
+        "ef1_percent_mean": 12.8024115613698,
+        "mene_regret_mean": 0.000010219810067480598,
+        "num_agents": 7,
+        "num_profiles": 50,
+        "nw_percent_mean": 63.5113474655803,
+        "nwa_percent_mean": 14.116346452300732,
+        "uw_percent_mean": 78.49859200220904
+      }
+    }
+  ],
+  "participants": {
+    "green": "019cfd96-75cb-7873-80ee-60683ace10be",
+    "challenger": "019d781f-fc82-7ed3-90d9-07adb510b002"
+  }
+}
