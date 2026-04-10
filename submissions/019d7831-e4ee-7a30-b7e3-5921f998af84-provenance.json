@@ -1,0 +1,22 @@
+{
+  "image_digests": {
+    "/challenger": "ghcr.io/karpaff/agent-negotiator@sha256:215555e57563c715fd6d6c74a44fb4bf69825a346e27b7b441aa11a66afb5ef7",
+    "/gateway": "ghcr.io/rdi-foundation/agentbeats-gateway@sha256:30f49abcc6f0b14a2498e645cd6f1f7d0e57316f82224ba18f4cad76e08e02a7",
+    "/green": "ghcr.io/gsmithline/tutorial-agent-beats-comp@sha256:543fee15165df5d89c09e6b376e77bc0e82bd401153658c841efacfb626c0380"
+  },
+  "manifest_digests": {
+    "/": "sha256:yxiXxqyenJCAmMHhK0LKYKAZHUlGXib6dks66wui6UQ=",
+    "/challenger": "sha256:XJlqEfWHyKDBT2rilQGXucsB0KRVsd4QWVtM79g1gnk=",
+    "/gateway": "sha256:YWNLWt2Oy0QNqtALcnrq3tH63EZKGzOG1c1xI1EywTw=",
+    "/green": "sha256:tNtI+rLs5o4ZlytxbyzG+5n5shNsm4gmod3XHzWwvFw="
+  },
+  "timestamp": "2026-04-10T16:48:30Z",
+  "github_actions": {
+    "run_url": "https://github.com/RDI-Foundation/MAizeBargAIn-agentbeats-leaderboard/actions/runs/24252768140",
+    "ref": "refs/pull/42/merge",
+    "sha": "f1732120691738a9557b071457ff6d2cd2ad2af7",
+    "repository_url": "https://github.com/RDI-Foundation/MAizeBargAIn-agentbeats-leaderboard",
+    "workflow_ref": "RDI-Foundation/MAizeBargAIn-agentbeats-leaderboard/.github/workflows/quick-submit.yml@refs/pull/42/merge",
+    "workflow_sha": "f1732120691738a9557b071457ff6d2cd2ad2af7"
+  }
+}
