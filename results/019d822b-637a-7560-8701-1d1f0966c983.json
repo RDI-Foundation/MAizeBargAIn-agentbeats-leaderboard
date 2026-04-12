@@ -1,0 +1,113 @@
+{
+  "status": "completed",
+  "results": [
+    {
+      "per_agent": [
+        {
+          "agent_name": "soft",
+          "ef1_percent": 15.764927327586504,
+          "ef1_percent_se": 11.22851460069959,
+          "mene_regret": 5.184962117255054E-7,
+          "mene_regret_se": 0.000005184962117255061,
+          "nw_percent": 68.72640496856775,
+          "nw_percent_se": 6.922692852107796,
+          "nwa_percent": 50.58261406271329,
+          "nwa_percent_se": 25.192182987089435,
+          "uw_percent": 80.65725960659513,
+          "uw_percent_se": 6.824113165987647
+        },
+        {
+          "agent_name": "tough",
+          "ef1_percent": 0.0,
+          "ef1_percent_se": 0.0,
+          "mene_regret": 0.00000467085404068257,
+          "mene_regret_se": 0.000017337058362716946,
+          "nw_percent": 62.337919635751064,
+          "nw_percent_se": 12.329366971706495,
+          "nwa_percent": 6.789663041681634,
+          "nwa_percent_se": 7.036650872525765,
+          "uw_percent": 75.38935966246325,
+          "uw_percent_se": 11.521727037223837
+        },
+        {
+          "agent_name": "aspiration",
+          "ef1_percent": 48.47161314382021,
+          "ef1_percent_se": 23.495242003352885,
+          "mene_regret": 0.0000013201060079381931,
+          "mene_regret_se": 0.000010456757770773721,
+          "nw_percent": 75.36193878747677,
+          "nw_percent_se": 9.161072267684053,
+          "nwa_percent": 48.917594058524905,
+          "nwa_percent_se": 32.1079902324526,
+          "uw_percent": 80.2499790222074,
+          "uw_percent_se": 6.562884020424622
+        },
+        {
+          "agent_name": "walk",
+          "ef1_percent": 10.653524762271761,
+          "ef1_percent_se": 12.835296993049994,
+          "mene_regret": 0.0000046320120418386065,
+          "mene_regret_se": 0.000015755903265002644,
+          "nw_percent": 72.28749168661076,
+          "nw_percent_se": 4.957483383691825,
+          "nwa_percent": 35.6168456761593,
+          "nwa_percent_se": 37.73264828467182,
+          "uw_percent": 78.03627610904718,
+          "uw_percent_se": 3.9815687926133387
+        },
+        {
+          "agent_name": "nfsp",
+          "ef1_percent": 27.51292202329354,
+          "ef1_percent_se": 16.99492882930632,
+          "mene_regret": 0.0000025588473118887122,
+          "mene_regret_se": 0.000011919372876190549,
+          "nw_percent": 54.59075394066223,
+          "nw_percent_se": 12.875718722119847,
+          "nwa_percent": 50.47309897145684,
+          "nwa_percent_se": 32.79951250382307,
+          "uw_percent": 71.93416079898735,
+          "uw_percent_se": 9.357946773335803
+        },
+        {
+          "agent_name": "rnad",
+          "ef1_percent": 9.381140203452784,
+          "ef1_percent_se": 10.212906061486306,
+          "mene_regret": 0.000030938985293005314,
+          "mene_regret_se": 0.000033904564894077525,
+          "nw_percent": 76.5280580175694,
+          "nw_percent_se": 9.698549506844659,
+          "nwa_percent": 40.442027276581335,
+          "nwa_percent_se": 34.821156383421815,
+          "uw_percent": 83.51500472647096,
+          "uw_percent_se": 8.111531997447536
+        },
+        {
+          "agent_name": "challenger",
+          "ef1_percent": 11.271888249325082,
+          "ef1_percent_se": 12.110889517542613,
+          "mene_regret": 0.000012376058232916876,
+          "mene_regret_se": 0.00002466965613360632,
+          "nw_percent": 67.91873949858096,
+          "nw_percent_se": 10.260304632737233,
+          "nwa_percent": 31.79993449715367,
+          "nwa_percent_se": 32.305605989232504,
+          "uw_percent": 81.09489183250088,
+          "uw_percent_se": 7.803117881018462
+        }
+      ],
+      "summary": {
+        "ef1_percent_mean": 17.579430815678556,
+        "mene_regret_mean": 0.000008145051305713681,
+        "num_agents": 7,
+        "num_profiles": 50,
+        "nw_percent_mean": 68.25018664788843,
+        "nwa_percent_mean": 37.803111083467286,
+        "uw_percent_mean": 78.69670453689604
+      }
+    }
+  ],
+  "participants": {
+    "green": "019cfd96-75cb-7873-80ee-60683ace10be",
+    "challenger": "019d7d30-dc21-7532-a278-6cd3e4317408"
+  }
+}
