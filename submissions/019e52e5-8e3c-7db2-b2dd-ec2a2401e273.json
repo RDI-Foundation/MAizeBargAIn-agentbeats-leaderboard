@@ -1,0 +1,99 @@
+{
+  "manifest_version": "0.1.0",
+  "config_schema": {
+    "type": "object",
+    "properties": {
+      "challenger_gemini_api_key": {
+        "type": "string",
+        "secret": true,
+        "description": "Gemini API key used only as fallback."
+      },
+      "challenger_gemini_model": {
+        "type": "string",
+        "description": "Gemini fallback model."
+      },
+      "challenger_local_llm_api_key": {
+        "type": "string",
+        "secret": true,
+        "description": "Bearer token for the secure local LLM proxy."
+      },
+      "challenger_public_local_llm_base_url": {
+        "type": "string",
+        "description": "Public OpenAI-compatible local cluster model endpoint, ending with /v1."
+      },
+      "challenger_public_local_llm_model": {
+        "type": "string",
+        "description": "Model name served by the public local endpoint."
+      }
+    },
+    "required": [],
+    "additionalProperties": false
+  },
+  "components": {
+    "gateway": {
+      "manifest": "https://raw.githubusercontent.com/RDI-Foundation/agentbeats-gateway/refs/tags/v0.1/amber-manifest.json5",
+      "config": {
+        "assessment_config": {
+          "games": 10,
+          "max_rounds": 5,
+          "discount": 0.98,
+          "bootstrap": 100,
+          "full_matrix": true
+        },
+        "participant_roles": {
+          "green": "green",
+          "purple1": "challenger"
+        },
+        "callback_urls": {
+          "green": "${bindings.green-proxy.url}",
+          "purple1": "${bindings.purple1-proxy.url}"
+        }
+      }
+    },
+    "green": {
+      "manifest": "https://raw.githubusercontent.com/RDI-Foundation/MAizeBargAIn-agentbeats/refs/heads/main/amber/amber-manifest-green.json5",
+      "config": {}
+    },
+    "challenger": {
+      "manifest": "https://raw.githubusercontent.com/Kingmaoqin/DHAI_AgenticAI/main/amber-manifest.json5",
+      "config": {
+        "gemini_api_key": "${config.challenger_gemini_api_key}",
+        "gemini_model": "${config.challenger_gemini_model}",
+        "local_llm_api_key": "${config.challenger_local_llm_api_key}",
+        "public_local_llm_base_url": "${config.challenger_public_local_llm_base_url}",
+        "public_local_llm_model": "${config.challenger_public_local_llm_model}"
+      }
+    }
+  },
+  "bindings": [
+    {
+      "to": "#gateway.green",
+      "from": "#green.a2a"
+    },
+    {
+      "to": "#gateway.purple1",
+      "from": "#challenger.a2a"
+    },
+    {
+      "to": "#green.proxy",
+      "from": "#gateway.proxy",
+      "weak": true,
+      "name": "green-proxy"
+    },
+    {
+      "to": "#challenger.proxy",
+      "from": "#gateway.proxy",
+      "weak": true,
+      "name": "purple1-proxy"
+    }
+  ],
+  "exports": {
+    "results": "#gateway.results"
+  },
+  "metadata": {
+    "agentbeats_ids": {
+      "green": "019cfd96-75cb-7873-80ee-60683ace10be",
+      "challenger": "019e52c3-7764-76b1-bfcb-a0c3d584d964"
+    }
+  }
+}
