@@ -1,0 +1,113 @@
+{
+  "status": "completed",
+  "results": [
+    {
+      "per_agent": [
+        {
+          "agent_name": "soft",
+          "ef1_percent": 14.166895243478303,
+          "ef1_percent_se": 10.126249819949901,
+          "mene_regret": 0.0,
+          "mene_regret_se": 0.0,
+          "nw_percent": 61.68968279323761,
+          "nw_percent_se": 7.149847112086001,
+          "nwa_percent": 48.40308459024985,
+          "nwa_percent_se": 30.920915966917228,
+          "uw_percent": 76.80723128790993,
+          "uw_percent_se": 6.928596923328953
+        },
+        {
+          "agent_name": "tough",
+          "ef1_percent": 0.0,
+          "ef1_percent_se": 0.0,
+          "mene_regret": 0.0000028142540242015455,
+          "mene_regret_se": 0.000014316821016579734,
+          "nw_percent": 64.84038059401419,
+          "nw_percent_se": 12.691305117145598,
+          "nwa_percent": 11.422438278178785,
+          "nwa_percent_se": 16.449503015224938,
+          "uw_percent": 78.92042477505382,
+          "uw_percent_se": 9.06319288306603
+        },
+        {
+          "agent_name": "aspiration",
+          "ef1_percent": 31.369112957402145,
+          "ef1_percent_se": 16.333927023926147,
+          "mene_regret": 0.0,
+          "mene_regret_se": 0.0,
+          "nw_percent": 71.11113328569323,
+          "nw_percent_se": 8.142754986221336,
+          "nwa_percent": 36.74277869653948,
+          "nwa_percent_se": 21.44359788522715,
+          "uw_percent": 78.3926760827018,
+          "uw_percent_se": 7.02348213978569
+        },
+        {
+          "agent_name": "walk",
+          "ef1_percent": 0.0,
+          "ef1_percent_se": 0.0,
+          "mene_regret": 0.0,
+          "mene_regret_se": 0.0,
+          "nw_percent": 63.60473733111732,
+          "nw_percent_se": 6.724671263942477,
+          "nwa_percent": 0.0,
+          "nwa_percent_se": 0.0,
+          "uw_percent": 81.10815517836188,
+          "uw_percent_se": 6.244064231846239
+        },
+        {
+          "agent_name": "nfsp",
+          "ef1_percent": 21.102947769347796,
+          "ef1_percent_se": 16.476920622565626,
+          "mene_regret": 0.000012472269509657964,
+          "mene_regret_se": 0.000021535256171308083,
+          "nw_percent": 78.02446221632714,
+          "nw_percent_se": 11.051555944814877,
+          "nwa_percent": 57.48484993006022,
+          "nwa_percent_se": 37.1575319387558,
+          "uw_percent": 86.74662532263036,
+          "uw_percent_se": 8.011363316949648
+        },
+        {
+          "agent_name": "rnad",
+          "ef1_percent": 23.404640422600906,
+          "ef1_percent_se": 13.359870128971494,
+          "mene_regret": 0.000008031155000480793,
+          "mene_regret_se": 0.000019593611831164647,
+          "nw_percent": 69.02038149707748,
+          "nw_percent_se": 10.187836607839106,
+          "nwa_percent": 63.95097023550442,
+          "nwa_percent_se": 40.81502653659042,
+          "uw_percent": 82.64329047705517,
+          "uw_percent_se": 8.156279927396165
+        },
+        {
+          "agent_name": "challenger",
+          "ef1_percent": 8.221226342728263,
+          "ef1_percent_se": 9.76638806731762,
+          "mene_regret": 0.00002618468814944208,
+          "mene_regret_se": 0.000034403831707832544,
+          "nw_percent": 65.25962580713332,
+          "nw_percent_se": 6.5347339030336835,
+          "nwa_percent": 37.46301622576352,
+          "nwa_percent_se": 21.859085024546804,
+          "uw_percent": 83.77040821617865,
+          "uw_percent_se": 6.543875836104891
+        }
+      ],
+      "summary": {
+        "ef1_percent_mean": 14.037831819365342,
+        "mene_regret_mean": 0.0000070717666691117684,
+        "num_agents": 7,
+        "num_profiles": 50,
+        "nw_percent_mean": 67.65005764637148,
+        "nwa_percent_mean": 36.49530542232804,
+        "uw_percent_mean": 81.19840161998452
+      }
+    }
+  ],
+  "participants": {
+    "green": "019cfd96-75cb-7873-80ee-60683ace10be",
+    "challenger": "019e4dd7-e8a3-7c72-a03c-c9f7810ef681"
+  }
+}
