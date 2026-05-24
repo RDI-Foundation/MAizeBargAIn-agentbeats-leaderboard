@@ -1,0 +1,113 @@
+{
+  "status": "completed",
+  "results": [
+    {
+      "per_agent": [
+        {
+          "agent_name": "soft",
+          "ef1_percent": 8.72916376228834,
+          "ef1_percent_se": 6.58084282356623,
+          "mene_regret": 0.0,
+          "mene_regret_se": 0.0,
+          "nw_percent": 55.57980227332027,
+          "nw_percent_se": 6.877148690995679,
+          "nwa_percent": 30.285136958548332,
+          "nwa_percent_se": 14.049062846225569,
+          "uw_percent": 78.8431175504732,
+          "uw_percent_se": 5.152014123725288
+        },
+        {
+          "agent_name": "tough",
+          "ef1_percent": 0.0,
+          "ef1_percent_se": 0.0,
+          "mene_regret": 0.000005525420128833502,
+          "mene_regret_se": 0.000014493301099796426,
+          "nw_percent": 67.93125055368088,
+          "nw_percent_se": 6.775436585336184,
+          "nwa_percent": 1.0980374746823844E-12,
+          "nwa_percent_se": 1.841168187279841E-12,
+          "uw_percent": 79.4969260523322,
+          "uw_percent_se": 7.801655019699107
+        },
+        {
+          "agent_name": "aspiration",
+          "ef1_percent": 9.114744529860875,
+          "ef1_percent_se": 8.479157066265467,
+          "mene_regret": 0.0,
+          "mene_regret_se": 0.0,
+          "nw_percent": 60.4173513485046,
+          "nw_percent_se": 10.154023081567772,
+          "nwa_percent": 26.90643831575075,
+          "nwa_percent_se": 16.558080613890976,
+          "uw_percent": 74.0504974425807,
+          "uw_percent_se": 7.9186716072702845
+        },
+        {
+          "agent_name": "walk",
+          "ef1_percent": 3.3176646793627875,
+          "ef1_percent_se": 5.17539026795767,
+          "mene_regret": 0.0,
+          "mene_regret_se": 0.0,
+          "nw_percent": 64.14228123746014,
+          "nw_percent_se": 4.00295613867905,
+          "nwa_percent": 4.740998452156706,
+          "nwa_percent_se": 6.312699199622052,
+          "uw_percent": 77.18118003168055,
+          "uw_percent_se": 3.5030244187177386
+        },
+        {
+          "agent_name": "nfsp",
+          "ef1_percent": 32.35657481700171,
+          "ef1_percent_se": 26.274243748005325,
+          "mene_regret": 0.000011891359967535209,
+          "mene_regret_se": 0.00001983134774473294,
+          "nw_percent": 65.36402601397087,
+          "nw_percent_se": 11.466449003087506,
+          "nwa_percent": 44.741662488727435,
+          "nwa_percent_se": 20.721088135138555,
+          "uw_percent": 80.32570251919955,
+          "uw_percent_se": 7.028352231083723
+        },
+        {
+          "agent_name": "rnad",
+          "ef1_percent": 35.10638039384412,
+          "ef1_percent_se": 28.630109078088495,
+          "mene_regret": 0.000012568160093451297,
+          "mene_regret_se": 0.00002064830429362801,
+          "nw_percent": 83.78428275024592,
+          "nw_percent_se": 7.42607985185963,
+          "nwa_percent": 52.15696633304554,
+          "nwa_percent_se": 31.316399156785597,
+          "uw_percent": 92.96717612948908,
+          "uw_percent_se": 4.750241147166774
+        },
+        {
+          "agent_name": "challenger",
+          "ef1_percent": 5.04900293105827E-13,
+          "ef1_percent_se": 9.040943029972542E-13,
+          "mene_regret": 0.000021681699134319388,
+          "mene_regret_se": 0.000024161037316449265,
+          "nw_percent": 64.13744758233392,
+          "nw_percent_se": 7.636703900291354,
+          "nwa_percent": 26.875203446896556,
+          "nwa_percent_se": 13.603453958781925,
+          "uw_percent": 85.570927712812,
+          "uw_percent_se": 5.414865312994984
+        }
+      ],
+      "summary": {
+        "ef1_percent_mean": 12.66064688319405,
+        "mene_regret_mean": 0.000007380948474877056,
+        "num_agents": 7,
+        "num_profiles": 50,
+        "nw_percent_mean": 65.90806310850238,
+        "nwa_percent_mean": 26.52948657073235,
+        "uw_percent_mean": 81.20507534836676
+      }
+    }
+  ],
+  "participants": {
+    "green": "019cfd96-75cb-7873-80ee-60683ace10be",
+    "challenger": "019e4dd7-e8a3-7c72-a03c-c9f7810ef681"
+  }
+}
