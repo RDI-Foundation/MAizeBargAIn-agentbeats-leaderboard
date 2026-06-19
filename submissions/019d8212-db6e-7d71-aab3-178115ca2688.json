@@ -1,0 +1,93 @@
+{
+  "manifest_version": "0.1.0",
+  "config_schema": {
+    "type": "object",
+    "properties": {
+      "challenger_llm_provider": {
+        "type": "string"
+      },
+      "challenger_mistral_api_key": {
+        "type": "string",
+        "secret": true
+      },
+      "challenger_mistral_model": {
+        "type": "string"
+      },
+      "challenger_openrouter_api_key": {
+        "type": "string",
+        "secret": true
+      },
+      "challenger_openrouter_base_url": {
+        "type": "string"
+      },
+      "challenger_openrouter_model": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "challenger_llm_provider"
+    ],
+    "additionalProperties": false
+  },
+  "components": {
+    "gateway": {
+      "manifest": "https://raw.githubusercontent.com/RDI-Foundation/agentbeats-gateway/refs/tags/v0.1/amber-manifest.json5",
+      "config": {
+        "assessment_config": {
+          "games": 10,
+          "max_rounds": 5,
+          "discount": 0.98,
+          "bootstrap": 100,
+          "full_matrix": true
+        },
+        "participant_roles": {
+          "green": "green",
+          "purple1": "challenger"
+        },
+        "callback_urls": {
+          "green": "${bindings.green-proxy.url}"
+        }
+      }
+    },
+    "green": {
+      "manifest": "https://raw.githubusercontent.com/RDI-Foundation/MAizeBargAIn-agentbeats/refs/heads/main/amber/amber-manifest-green.json5",
+      "config": {}
+    },
+    "challenger": {
+      "manifest": "https://raw.githubusercontent.com/MukhtarovTimerlan/multiagent_purple/refs/heads/main/amber-manifest.json5",
+      "config": {
+        "llm_provider": "${config.challenger_llm_provider}",
+        "mistral_api_key": "${config.challenger_mistral_api_key}",
+        "mistral_model": "${config.challenger_mistral_model}",
+        "openrouter_api_key": "${config.challenger_openrouter_api_key}",
+        "openrouter_base_url": "${config.challenger_openrouter_base_url}",
+        "openrouter_model": "${config.challenger_openrouter_model}"
+      }
+    }
+  },
+  "bindings": [
+    {
+      "to": "#gateway.green",
+      "from": "#green.a2a"
+    },
+    {
+      "to": "#gateway.purple1",
+      "from": "#challenger.a2a"
+    },
+    {
+      "to": "#green.proxy",
+      "from": "#gateway.proxy",
+      "weak": true,
+      "name": "green-proxy"
+    }
+  ],
+  "exports": {
+    "results": "#gateway.results"
+  },
+  "metadata": {
+    "agentbeats_ids": {
+      "green": "019cfd96-75cb-7873-80ee-60683ace10be",
+      "challenger": "019d820f-7372-7761-82cd-a6a81cf33ecb"
+    }
+  }
+}
